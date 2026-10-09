@@ -1,11 +1,11 @@
 class Animal {
-    void hacerSonido() {
+    public void hacerSonido() {
         System.out.println("El animal hace un sonido");
     }
 }
 
 class Perro extends Animal {
-    void moverCola() {
+    public void moverCola() {
         System.out.println("El perro mueve la cola");
     }
 }
